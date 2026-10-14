@@ -94,7 +94,7 @@ class Arkouda(MakefilePackage):
         type=("build", "link", "run", "test"),
     )
     depends_on(
-        "chapel@2.5:2.9 +hdf5 +zmq", when="@2026.07.15:", type=("build", "link", "run", "test")
+        "chapel@2.5:2.9 +hdf5 +zmq", when="@2026.07.15", type=("build", "link", "run", "test")
     )
     depends_on(
         "chapel@2.5:2.10 +hdf5 +zmq", when="@2026.10.14:", type=("build", "link", "run", "test")
@@ -107,7 +107,7 @@ class Arkouda(MakefilePackage):
     depends_on(
         "python@3.10:3.13", type=("build", "link", "run", "test"), when="@2025.09.30:2026.02.27"
     )
-    depends_on("python@3.10:3.14", type=("build", "link", "run", "test"), when="@2026.07.15:")
+    depends_on("python@3.10:3.14", type=("build", "link", "run", "test"), when="@2026.07.15")
     depends_on("python@3.10:3.14", type=("build", "link", "run", "test"), when="@2026.10.14:")
     depends_on("libzmq@4.2.5:", type=("build", "link", "run", "test"))
     depends_on("hdf5+hl~mpi", type=("build", "link", "run", "test"))
