@@ -28,7 +28,7 @@ class Arkouda(MakefilePackage):
     version("main", branch="main")
 
     version(
-        "2026.10.14", sha256="a13c4d6eabf2905612cd372d364c032c2da52007e8eaf4ddf58b30851562c110"
+        "2026.10.14", sha256="b8208f86bdedd4a55c0e43303c9e862f8dd31e98e11455893a80ac40c9503e89"
     )
     version(
         "2026.07.15", sha256="483574978fd3a91c5532076cce4698170726f6717c8896f230024fd7722fc6f9"
